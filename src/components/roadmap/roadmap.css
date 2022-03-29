@@ -1,0 +1,127 @@
+.roadmap{
+    margin-top: 150px;
+    display: flex;
+    height: 1100px;
+    position: relative;
+    /* justify-content: space-evenly; */
+}
+
+.title{
+    width: 15%;
+    text-align: center;
+}
+
+.roadmap h2{
+    position: absolute;
+    top: 200px;
+    left: -166px;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 87px;
+   
+    background: linear-gradient(96.39deg, #1C1C1C -9.54%, #FFFFFF 49.6%, #303030 105.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transform: rotate(-90deg);
+}
+
+.bar-container{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.roadmap .bar{
+    width: 10px;
+    height: 800px;
+    background: #1F2023;
+    box-shadow: inset -1.25px -1.25px 6px rgba(255, 255, 255, 0.08), inset 1.25px 1.25px 6px rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    transform: rotate(0deg);
+}
+
+.tables{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    max-width: 850px
+}
+
+.table-item h3{
+    font-weight: 500;
+    font-size: 29.124px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+
+.table-item{
+    padding: 60px;
+    background: #1F2023;
+    box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 10%), inset 6px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.no-active{
+    background: #1A1B1D;
+    box-shadow: -10px -10px 25px rgba(255, 255, 255, 5%), 10px 10px 25px rgba(0, 0, 0, 0.33), inset 0px 4px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 40px;
+}
+
+.title-active{
+    color: #FFFFFF !important;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.point-active{
+    width: 7px;
+    height: 7px;
+    background: #2CFF0A;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    display: block;
+    border-radius: 50%;
+}
+
+.point{
+    width: 7px;
+    height: 7px;
+    background: #FF3737;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    display: block;
+    border-radius: 50%;
+}
+
+.circle-container{
+    margin-top: 100px;
+    position: absolute;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle{
+    background: #202122;
+    box-shadow: -10px -10px 25px rgba(255, 255, 255, 15%), 10px 10px 25px rgba(0, 0, 0, 0.33), inset 0px 4px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+}

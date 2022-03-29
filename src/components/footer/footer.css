@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    align-items: flex-end;
+    padding: 30px 0;
+}
+
+.footer h3{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #6E7191;
+}
+
+.copi{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list{
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #6E7191;
+}
+
+.list li{
+    list-style: none;
+}
+
+.redes{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 40px;
+}

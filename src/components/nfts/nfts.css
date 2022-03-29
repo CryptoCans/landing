@@ -1,0 +1,25 @@
+.nfts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 850px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    gap: 43px;
+}
+
+.nfts h2{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 123px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(96.39deg, #1C1C1C -9.54%, #FFFFFF 49.6%, #303030 105.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

@@ -1,0 +1,58 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 176px;
+}
+
+.logo{
+
+}
+
+.menu{
+    width: 500px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #6E7191;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.wallet{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 34px;
+    font-size: 15px;
+}
+
+.wallet-address{
+    display: flex;
+    flex-direction: column;
+}
+
+.ico-wallet{
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border-image-source: linear-gradient(155.15deg, rgba(0, 0, 0, 0.21) 15.83%, rgba(255, 255, 255, 0.6) 93.12%);
+    background: rgba(36, 39, 44, 1);
+    height: 60px;
+    width: 60px;
+    left: 1705px;
+    top: 73px;
+    border-radius: 40px;
+    box-shadow: -10px -10px 25px rgba(255, 255, 255, 20%),
+                10px 10px 25px rgba(0, 0, 0, 0.33), 
+                inset 0px 4px 25px rgba(0, 0, 0, 0.06);
+}

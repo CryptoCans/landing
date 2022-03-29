@@ -1,0 +1,78 @@
+.team{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: space-around;
+}
+
+.team h2{
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 87px;
+    background: linear-gradient(96.39deg, #1C1C1C -9.54%, #FFFFFF 49.6%, #303030 105.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.team-card{
+    width: 25%;
+    background: #171819;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    -webkit-box-shadow: -1px -1px 2px 1px #2c2c2cc9;
+    box-shadow: -1px -1px 2px 1px #2c2c2cc9;
+}
+
+.team-card .img{
+    width: 200px;
+    height: 200px;
+    background: #171718;
+    box-shadow: -6px -6px 12px rgba(255, 255, 255, 8%), 6px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.team-card .card-data{
+    padding: 40px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #6E7191;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 10px;
+    height: 150px;
+}
+
+.team-card .card-redes{
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 30px;
+}
+
+.team-p{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #6E7191;
+}
+
+.grid{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
