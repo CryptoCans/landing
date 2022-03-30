@@ -1,9 +1,9 @@
 import './nav.css';
-import logo from '../../img/logo.png';
-import ico_wallet from '../../img/ico-wallet.png';
-import ico_dasboard from '../../img/ico-dasboard.png';
-import ico_market from '../../img/ico-market.png';
-import ico_race from '../../img/ico-race.png';
+import logo from '../../img/logo.svg';
+import ico_wallet from '../../img/ico-wallet.svg';
+import ico_dasboard from '../../img/ico-dasboard.svg';
+import ico_market from '../../img/ico-market.svg';
+import ico_race from '../../img/ico-race.svg';
 
 const Nav = () => {
     return ( 

@@ -35,7 +35,7 @@
 
 .roadmap .bar{
     width: 10px;
-    height: 800px;
+    height: 830px;
     background: #1F2023;
     box-shadow: inset -1.25px -1.25px 6px rgba(255, 255, 255, 0.08), inset 1.25px 1.25px 6px rgba(0, 0, 0, 0.8);
     border-radius: 25px;
@@ -124,4 +124,40 @@
     height: 60px;
     display: grid;
     place-items: center;
+}
+
+.text-container{
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .roadmap h2 {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .roadmap{
+        margin-top: 0;
+        height: 1200px;
+    }
+
+    .text-container{
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .table-item{
+        padding: 20px;
+    }
+
+    .text-content{
+        gap: 10px
+    }
+
+    .roadmap h2{
+        left: -94px;
+        font-size: 3em;
+        top: 244px
+    }
 }

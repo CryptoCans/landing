@@ -20,7 +20,7 @@ const Roadmap = () => {
                
                     <div className='table-item'>
                         <h3 className='title-active'>Q2 2022</h3>
-                        <div style={{marginLeft: '10px'}}> 
+                        <div className="text-container"> 
                             <div className='text-content'>
                                 <span className='point-active'></span><p>Diseño de la landing page.</p>
                             </div>
@@ -39,7 +39,7 @@ const Roadmap = () => {
                     </div>
                     <div className='table-item no-active'>
                         <h3>Q3 2022</h3>
-                        <div style={{marginLeft: '10px'}}>
+                        <div className="text-container">
                             <div className='text-content'> 
                                 <span className='point'></span><p>Lanzamiento del modo de alimento a tus perros.</p>
                             </div>
@@ -56,7 +56,7 @@ const Roadmap = () => {
                     </div>
                     <div className='table-item no-active'>
                         <h3>Q4 2022</h3>
-                        <div style={{marginLeft: '10px'}}>
+                        <div className="text-container">
                             <div className='text-content'>
                                 <span className='point'></span><p>Mini juego de visita a los canódromos para alimentar los perros de otros jugadores.</p>
                             </div>

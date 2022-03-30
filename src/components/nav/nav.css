@@ -25,6 +25,7 @@
     color: #6E7191;
     font-weight: 500;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .wallet{
@@ -55,4 +56,34 @@
     box-shadow: -10px -10px 25px rgba(255, 255, 255, 20%),
                 10px 10px 25px rgba(0, 0, 0, 0.33), 
                 inset 0px 4px 25px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+.ico-wallet:hover{
+    background: #24272C;
+    box-shadow: inset -10px -10px 20px rgba(255, 255, 255, 10%), inset 10px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+@media (max-width: 992px) {
+    .menu ul {
+        justify-content: space-evenly;
+    }
+
+    .menu {
+        width: 420px;
+    }
+
+    .menu li{
+        gap: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
 }

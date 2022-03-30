@@ -9,7 +9,7 @@ import linkeding from '../../img/linkeding.svg';
 const Team = () => {
     return ( 
         <section className='team'>
-            <div>
+            <div className='team-title'>
                 <h2>EQUIPO</h2>
                 <p className='team-p'>Ejecutivo y Desarrollo</p>
             </div>

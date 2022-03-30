@@ -1,5 +1,5 @@
 .header{
-    height: 100vh;
+    height: 800px;
     display: flex;
     width: 100%;
 }
@@ -43,6 +43,7 @@
     max-width: 1000px;
     position: absolute;
     right:100px;
+    z-index: -1;
 }
 
 .header-text button{
@@ -58,6 +59,12 @@
     letter-spacing: 0.75px;
     color: #F7F7FC;
     border: none;
+    cursor: pointer;
+}
+
+.header-text button:hover{
+    background: #24272C;
+    box-shadow: inset -10px -10px 20px rgba(255, 255, 255, 10%), inset 10px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 .header .header-text--btn{
@@ -68,3 +75,72 @@
 .header .btn-primary{
     color: #FFA415;
 }   
+
+@media (max-width: 1400px) { 
+
+    .header{
+        height: 700px;
+    }
+
+    .header-text h1{
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 100px;
+    }
+
+    .header-img img{
+        max-width: 800px;
+    }
+ }
+
+
+ @media (max-width: 1200px) {
+    .header-img img {
+        right: 0;
+    }
+}
+
+ @media (max-width: 992px) {
+
+    .header-text p {
+        font-size: 18px;
+    }
+
+    .header-text h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .header-img img {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-text{
+        width: 100%;
+    }
+
+    .header{
+        flex-wrap: wrap;
+        margin-top: 80px;
+        height: 550px;
+    }
+
+    .header-img{
+        width: 100%;
+    }
+
+    .header-text h1 {
+        text-align: center;
+    }
+
+    .header .header-text--btn {
+        justify-content: center;
+    }
+
+    .header-text p {
+        text-align: center;
+    }
+}

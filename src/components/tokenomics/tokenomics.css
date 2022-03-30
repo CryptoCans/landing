@@ -280,3 +280,78 @@
     top: 0;
     background: #4D31F5;
 }
+
+@media (max-width: 1400px) { 
+
+    .porcent-item--text{
+        font-size: 20px;
+    }
+
+    .tokenomics-table div{
+        font-size: 20px;
+    }
+
+    
+    .tokenomics-table div span{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .tokenomics-container {
+        gap: 30px;
+    }
+
+    .porcent-item {
+        width: 260px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .tokenomics-porcent {
+        width: 100%;
+        height: 500px;
+    }
+
+    .tokenomics {
+        margin-top: 150px;
+        height: 800px;
+    }
+
+    .porcent-item {
+        width: 230px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .tokenomics {
+        margin-top: 150px;
+    }
+
+    .tokenomics h2 {
+        font-size: 5em;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    .tokenomics{
+        margin-top: 0;
+        height: 850px;
+        justify-content: flex-start;
+    }
+
+    .porcent-item {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tokenomics h2 {
+        font-size: 3em;
+    }
+}

@@ -1,6 +1,6 @@
 import './card.css';
 import card_common from '../../img/card-common.svg';
-import ico_market from '../../img/ico-market.png';
+import ico_market from '../../img/ico-market.svg';
 
 const Card = () => {
     return ( 
