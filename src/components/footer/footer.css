@@ -71,5 +71,18 @@
 @media (max-width: 576px) {
     .footer{
         gap: 0;
+        flex-direction: column;
+        height: 550px;
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-footer--table p{
+        font-size: 10px;
+    }
+
+    .card-footer--table .porcent{
+        font-size: 20px;
     }
 }
